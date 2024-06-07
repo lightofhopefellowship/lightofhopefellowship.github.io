@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta charset="utf-8">
+<meta name = "format-detection" content = "telephone=no" />
+<link rel="icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/camera.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/script.js"></script> 
+<script src="js/superfish.js"></script>
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/tmStickUp.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script src="js/camera.js"></script>
+<script src="js/owl.carousel.js"></script> 
+<!--[if (gt IE 9)|!(IE)]><!-->
+<script src="js/jquery.mobile.customized.min.js"></script>
+<!--<![endif]-->
+<script>
+ $(window).load(function(){
+  $().UItoTop({ easingType: 'easeOutQuart' });
+  $('#stuck_container').tmStickUp({});  
+
+$('#camera_wrap').camera({
+loader: false,
+pagination: false ,
+minHeight: '400',
+thumbnails: false,
+height: '38.07291666666667%',
+caption: false,
+navigation: true,
+fx: 'mosaic'
+});
+
+$("#owl").owlCarousel({
+items : 3, //10 items above 1000px browser width
+itemsDesktop : [995,1], //5 items between 1000px and 901px
+itemsDesktopSmall : [767, 1], // betweem 900px and 601px
+itemsTablet: [700, 1], //2 items between 600 and 0
+itemsMobile : [479, 1], // itemsMobile disabled - inherit from itemsTablet option
+navigation : true,
+pagination : false
+});
+});
+</script>
+<!--[if lt IE 8]>
+ <div style=' clear: both; text-align:center; position: relative;'>
+   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+   </a>
+</div>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<link rel="stylesheet" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+<body class="page1" id="top">
+<!--==============================
+              header
+=================================-->
+<header>
+  <div class="container_12">
+    <div class="grid_12">
+      <h1 class="logo">
+        <a href="index.html">
+          LIGHT
+          <span>Light of Hope Fellowship</span>
+        </a>
+      </h1>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <section id="stuck_container">
+  <!--==============================
+              Stuck menu
+  =================================-->
+    <div class="container_12">
+        <div class="grid_12">          
+          <div class="navigation">
+            <nav>
+              <ul class="sf-menu">
+               <li class="current"><a href="index.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="mission.html">Mission</a></li>
+               <li><a href="membership.html">Membership</a></li>
+               <li><a href="resources.html">Resources</a></li>
+               <li><a href="contacts.html">Contacts</a></li>
+             </ul>
+            </nav>
+            <div class="clear"></div>
+          </div>       
+         <div class="clear"></div>  
+     </div> 
+     <div class="clear"></div>
+    </div> 
+  </section>
+</header>
+<section class="slider_wrapper">
+  <div id="camera_wrap" class="">
+    <div data-src="images/slide.jpg"></div>
+    <div data-src="images/slide1.jpg"></div>
+    <div data-src="images/slide2.jpg"></div>  
+  </div>  
+</section> 
+
+<section id="content">
+    <div class="container_12">
+      <div class="grid_12">
+        <h2>Resources</h2>
+        <p>Welcome to our resources page! Here you will find a variety of materials to support you in your journey. Explore articles, videos, books, and helpful links that can provide guidance and inspiration.</p>
+      </div>
+      <div class="clear"></div>
+      
+      <div class="grid_6">
+        <h3>Articles</h3>
+        <div class="resource-item">
+          <img src="images/article1.jpg" alt="">
+          <div class="extra_wrapper">
+            <div class="resource-title"><a href="#">Understanding Grief and Loss</a></div>
+            This article provides insights into the process of grief and how to cope with loss.
+          </div>
+        </div>
+        <div class="resource-item">
+          <img src="images/article2.jpg" alt="">
+          <div class="extra_wrapper">
+            <div class="resource-title"><a href="#">Building Resilience</a></div>
+            Learn how to build resilience and stay strong in the face of challenges.
+          </div>
+        </div>
+        <div class="resource-item">
+          <img src="images/article3.jpg" alt="">
+          <div class="extra_wrapper">
+            <div class="resource-title"><a href="#">Coping with Anxiety</a></div>
+            Tips and strategies to manage anxiety effectively.
+          </div>
+        </div>
+        <div class="resource-item">
+          <img src="images/article4.jpg" alt="">
+          <div class="extra_wrapper">
+            <div class="resource-title"><a href="#">Self-Care for Caregivers</a></div>
+            Practical advice for caregivers to take care of their own health and well-being.
+          </div>
+        </div>
+      </div>
+      
+      <div class="grid_6">
+        <h3>Videos</h3>
+        <div class="resource-item">
+          <img src="images/video1.jpg" alt="">
+          <div class="extra_wrapper">
+            <div class="resource-title"><a href="#">Finding Hope in Difficult Times</a></div>
+            Watch this inspiring video to learn how to find hope even when times are tough.
+          </div>
+        </div>
+        <div class="resource-item">
+          <img src="images/video2.jpg" alt="">
+          <div class="extra_wrapper">
+            <div class="resource-title"><a href="#">Meditation and Mindfulness</a></div>
+            Discover the benefits of meditation and mindfulness with this helpful guide.
+          </div>
+        </div>
+        <div class="resource-item">
+          <img src="images/video3.jpg" alt="">
+          <div class="extra_wrapper">
+            <div class="resource-title"><a href="#">Stress Management Techniques</a></div>
+            Learn techniques to manage stress and maintain balance in life.
+          </div>
+        </div>
+        <div class="resource-item">
+          <img src="images/video4.jpg" alt="">
+          <div class="extra_wrapper">
+            <div class="resource-title"><a href="#">Overcoming Depression</a></div>
+            Watch this video to understand depression and ways to overcome it.
+          </div>
+        </div>
+      </div>
+      
+      <div class="clear"></div>
+      
+      <div class="grid_6">
+        <h3>Books</h3>
+        <div class="resource-item">
+          <img src="images/book1.jpg" alt="">
+          <div class="extra_wrapper">
+            <div class="resource-title"><a href="#">The Power of Now</a></div>
+            A guide to spiritual enlightenment by Eckhart Tolle.
+          </div>
+        </div>
+        <div class="resource-item">
+          <img src="images/book2.jpg" alt="">
+          <div class="extra_wrapper">
+            <div class="resource-title"><a href="#">Man's Search for Meaning</a></div>
+            Viktor Frankl's memoir and psychological guide to finding meaning in life.
+          </div>
+        </div>
+        <div class="resource-item">
+          <img src="images/book3.jpg" alt="">
+          <div class="extra_wrapper">
+            <div class="resource-title"><a href="#">Daring Greatly</a></div>
+            Brené Brown's exploration of the power of vulnerability.
+          </div>
+        </div>
+        <div class="resource-item">
+          <img src="images/book4.jpg" alt="">
+          <div class="extra_wrapper">
+            <div class="resource-title"><a href="#">The Gifts of Imperfection</a></div>
+            Another inspiring book by Brené Brown about embracing who you are.
+          </div>
+        </div>
+      </div>
+      
+      <div class="grid_6">
+        <h3>Helpful Links</h3>
+        <div class="resource-item">
+          <img src="images/link1.jpg" alt="">
+          <div class="extra_wrapper">
+            <div class="resource-title"><a href="#">Mental Health America</a></div>
+            Visit Mental Health America for resources and support on mental health issues.
+          </div>
+        </div>
+        <div class="resource-item">
+          <img src="images/link2.jpg" alt="">
+          <div class="extra_wrapper">
+            <div class="resource-title"><a href="#">National Alliance on Mental Illness</a></div>
+            NAMI provides support, education, and advocacy for individuals with mental illness.
+          </div>
+        </div>
+        <div class="resource-item">
+          <img src="images/link3.jpg" alt="">
+          <div class="extra_wrapper">
+            <div class="resource-title"><a href="#">Psychology Today</a></div>
+            Access articles and find a therapist through Psychology Today's extensive database.
+          </div>
+        </div>
+        <div class="resource-item">
+          <img src="images/link4.jpg" alt="">
+          <div class="extra_wrapper">
+            <div class="resource-title"><a href="#">HelpGuide</a></div>
+            A trusted guide to mental health and well-being.
+          </div>
+        </div>
+      </div>
+      
+      <div class="clear"></div>
+    </div>
+  </section>
+  <section id="mental-health-resources">
+    <div class="container_12">
+      <div class="grid_12">
+        <h2 class="ta__center">Mental Health Resources</h2>
+      </div>
+      <div class="grid_4">
+        <div class="banner-1">
+          <div class="maxheight">
+            <img src="images/depression.jpg" alt="">
+            <div class="banner-1_bot">
+              <div class="text1 tx__1">Depression</div>
+              <ul>
+                <li><a href="depression_resources1.html">Understanding Depression</a></li>
+                <li><a href="depression_resources2.html">Therapy Options</a></li>
+                <li><a href="depression_resources3.html">Support Groups</a></li>
+                <li><a href="depression_resources4.html">Self-Care Tips</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid_4">
+        <div class="banner-1">
+          <div class="maxheight">
+            <img src="images/insomnia.jpg" alt="">
+            <div class="banner-1_bot">
+              <div class="text1 tx__1">Insomnia</div>
+              <ul>
+                <li><a href="insomnia_resources1.html">Understanding Insomnia</a></li>
+                <li><a href="insomnia_resources2.html">Sleep Hygiene</a></li>
+                <li><a href="insomnia_resources3.html">Professional Treatments</a></li>
+                <li><a href="insomnia_resources4.html">Coping Strategies</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid_4">
+        <div class="banner-1">
+          <div class="maxheight">
+            <img src="images/anxiety.jpg" alt="">
+            <div class="banner-1_bot">
+              <div class="text1 tx__1">Anxiety</div>
+              <ul>
+                <li><a href="anxiety_resources1.html">Understanding Anxiety</a></li>
+                <li><a href="anxiety_resources2.html">Mindfulness Exercises</a></li>
+                <li><a href="anxiety_resources3.html">Counseling Services</a></li>
+                <li><a href="anxiety_resources4.html">Support Networks</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="container_12">
+      <div class="grid_4">
+        <div class="banner-1">
+          <div class="maxheight">
+            <img src="images/stress.jpg" alt="">
+            <div class="banner-1_bot">
+              <div class="text1 tx__1">Stress</div>
+              <ul>
+                <li><a href="stress_resources1.html">Managing Stress</a></li>
+                <li><a href="stress_resources2.html">Relaxation Methods</a></li>
+                <li><a href="stress_resources3.html">Time Management</a></li>
+                <li><a href="stress_resources4.html">Therapy Options</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid_4">
+        <div class="banner-1">
+          <div class="maxheight">
+            <img src="images/grief.jpg" alt="">
+            <div class="banner-1_bot">
+              <div class="text1 tx__1">Grief</div>
+              <ul>
+                <li><a href="grief_resources1.html">Coping with Grief</a></li>
+                <li><a href="grief_resources2.html">Counseling Services</a></li>
+                <li><a href="grief_resources3.html">Support Groups</a></li>
+                <li><a href="grief_resources4.html">Healing Activities</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </section>
+  
+<!--==============================
+              footer
+=================================-->
+<footer id="footer">
+  <div class="container_12">
+    <div class="grid_12"> 
+      <h1 class="logo">
+        <a href="index.html">
+          LIGHT
+        </a>
+      </h1>
+      <div class="socials">
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-google-plus"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+      </div>
+      <div class="sub-copy">&copy; <span id="copyright-year"></span>| <a href="#">Privacy Policy</a> <br> Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">TemplateMonster.com</a></div>
+    </div>
+    <div class="clear"></div>
+  </div>  
+</footer>
+<a href="#" id="toTop" class="fa fa-angle-up"></a>
+</body>
+</html>
